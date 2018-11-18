@@ -1,0 +1,230 @@
+     +--------------------------------------------------------------------+
+     ¦                         • MobaXterm 8.6 •                          ¦
+     ¦            (SSH client, X-server and networking tools)             ¦
+     ¦                                                                    ¦
+     ¦ ? Telnet session to admin@10.17.128.17                             ¦
+     ¦ ? Your DISPLAY is set to 172.20.20.7:0.0                           ¦
+     ¦ ? For more info, ctrl+click on help or visit our website           ¦
+     +--------------------------------------------------------------------+
+
+
+ Entering server port, ..... type CTRL-z for port menu.
+
+>> 'nobody' initiated a new r/w session
+
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening#
+suman-hardening# show log security ?
+<count>     count
+<cr>
+
+suman-hardening# show log security
+
+Oct 28 13:03:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:03:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:03:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:03:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:03:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:03:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:03:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:03:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:03:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:03:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:03:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:03:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:03:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:03:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:03:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:03:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:04:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:04:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:04:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:04:06  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:04:06  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:04:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:04:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:04:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:04:36  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+
+Oct 28 13:04:36  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:04:54  sapd[4147]: <127004> <NOTI> |AP suman-hardening@1.2.3.5 sapd| |ids-ap| AP(40:e3:d6:be:3c:50): Interfering AP: An AP detected an interfering access point (BSSID 34:fc:b9:ff:a8:d5 and SSID ssid-full-tunnel on CHANNEL 36).
+Oct 28 13:05:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:05:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:05:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:05:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:05:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:05:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:05:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:05:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:05:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:05:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:05:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:05:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:05:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:05:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:05:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:05:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:06:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:06:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:06:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:06:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:06:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:06:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:06:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:06:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:06:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:06:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:06:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:06:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+
+
+Oct 28 13:06:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:06:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:06:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:07:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:07:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:07:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:07:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:07:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:07:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:07:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:07:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:07:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:07:37  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:07:37  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:08:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server msg len 38
+Oct 28 13:08:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  sending request to server 10.17.150.14 with req code 12
+Oct 28 13:08:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:55] Add Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:08:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  reading ssl of size 16
+Oct 28 13:08:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:79] Find Request: id=1, srv=10.17.150.14, fd=15
+Oct 28 13:08:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:85]  Current entry: srv=10.17.150.14, fd=15
+Oct 28 13:08:07  stm[4167]: <124004> <DBUG> |AP suman-hardening@1.2.3.5 stm|  status server processed for server radsec
+Oct 28 13:08:07  stm[4167]: <121031> <DBUG> |AP suman-hardening@1.2.3.5 stm| |aaa| [rc_request.c:40] Del Request: id=1, srv=10.17.150.14, fd=15
+suman-hardening# show log system
+
+Oct 28 10:24:42  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:24:42  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:29:42  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:29:45  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:29:45  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:34:45  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:34:47  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:34:47  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:39:47  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:39:50  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:39:50  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:44:50  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:44:53  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:44:53  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:49:53  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:49:55  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:49:55  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:54:55  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 10:55:00  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 10:55:00  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 10:59:58  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:00:01  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:00:01  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:05:01  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:05:03  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:05:03  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:10:03  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:10:06  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:10:06  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:15:06  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:15:09  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:15:09  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:20:09  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:20:12  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+
+Oct 28 11:20:12  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:25:11  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:25:15  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: protocol-error-001
+Oct 28 11:30:14  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:30:17  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:30:17  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:35:17  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:35:19  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:35:19  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:40:19  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:40:22  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:40:22  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:45:22  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:45:25  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:45:25  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:50:25  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:50:27  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:50:27  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 11:55:27  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 11:55:30  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 11:55:30  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:00:30  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:00:33  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:00:33  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:05:33  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:05:35  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:05:35  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:10:35  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:10:38  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:10:38  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:15:38  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:15:41  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:15:41  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:20:41  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+
+Oct 28 12:20:44  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:25:44  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:25:46  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:25:46  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:30:46  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:30:49  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:30:49  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:35:49  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:35:52  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:35:52  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:40:52  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:40:54  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:40:54  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:45:54  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:46:07  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:46:07  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:50:57  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:51:00  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:51:00  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 12:56:00  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 12:56:02  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 12:56:02  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 13:01:02  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 13:01:05  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 13:01:05  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+Oct 28 13:06:05  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  provision try.
+Oct 28 13:06:08  cli[4141]: <341005> <ERRS> |AP suman-hardening@1.2.3.5 cli|  Activate provision failed, code: fail-prov-no-shipped
+Oct 28 13:06:08  cli[4141]: <341004> <WARN> |AP suman-hardening@1.2.3.5 cli|  Set amp discover allowed: code: fail-prov-no-shipped.
+suman-hardening#
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Session stopped
+    - Press <return> to exit tab
+    - Press R to restart session
+    - Press S to save terminal output to file
+
+Network error: Software caused connection abort

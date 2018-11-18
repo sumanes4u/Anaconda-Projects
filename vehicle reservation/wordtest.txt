@@ -1,0 +1,5 @@
+This is a sample text file.
+The word 'the' in this file is to be counted.
+Must be careful not to count words like their and there.
+Should only count the word "the" when it is a separate word.
+This is the last line of the file.

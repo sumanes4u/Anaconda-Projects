@@ -1,0 +1,5 @@
+Only the basic IP address information can be set using through the local keyboard/video.
+
+Once the basic information is set the web interface should be used to set all of the IP addressing information.
+
+Perform the following steps:

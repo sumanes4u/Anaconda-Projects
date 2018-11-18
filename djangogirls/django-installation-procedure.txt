@@ -1,0 +1,265 @@
+1. Crete a folder for django project as :'djangogirls' or yourwish:
+
+2. Go into that folder location using cmd prompt.
+
+3. Execute the command blow:
+django-admin.exe startproject mysite .
+
+4. After this under the folder mysite folder will be created.
+
+5. Downoload sqlite3 browser and install it.
+http://sqlitebrowser.org/
+
+6. Move to django folder and execute the command below using python 3.x version:
+
+C:djangogirls python.exe manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying sessions.0001_initial... OK
+
+7. After this command you will find "db" created under djangogirls folder.
+
+8. Open the database using sqlite3 browser.
+
+9. Execute the below command under django folder to start the django server:
+C:djangogirls>python.exe manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 19, 2017 - 08:12:02
+Django version 2.0, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[19/Dec/2017 08:12:04] "GET / HTTP/1.1" 200 16559
+
+10. After the  successful installation open the django server from any browser using:
+http://127.0.0.1:8000/
+This says in the browser if it is successful.
+"The install worked successfully! Congratulations!"
+
+11. Copy the django project in the attachment under "djangogirls" folder and extract.
+
+12. Create a Virtual Environment under "djangogirls\django-bloggy\django-bloggy\bloggy_project" folder as:
+C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project>C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32\python.exe -m venv new-env
+
+13. Now with the above 11th step new-env folder will be craeted under django-bloggy\bloggy-project.
+
+14. Enter activate command and move into the new-env created.
+C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project\new-env\Scripts>activate
+
+(new-env) C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project\new-env\Scripts>
+
+15. Install all the below 5 required packages: from the root python location as below:
+Django==1.10.3
+django-forms-bootstrap==3.1.0
+django-uuslug==1.1.8
+pillow==5.0.0
+python-slugify==1.2.1
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install Django==1.10.3
+Collecting Django==1.10.3
+  Using cached Django-1.10.3-py2.py3-none-any.whl
+Installing collected packages: Django
+  Found existing installation: Django 2.0
+    Uninstalling Django-2.0:
+      Successfully uninstalled Django-2.0
+Successfully installed Django-1.10.3
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install django-forms-bootstrap==3.1.0
+Collecting django-forms-bootstrap==3.1.0
+  Using cached django_forms_bootstrap-3.1.0-py2.py3-none-any.whl
+Installing collected packages: django-forms-bootstrap
+Successfully installed django-forms-bootstrap-3.1.0
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install django-uuslug==1.1.8
+Collecting django-uuslug==1.1.8
+  Using cached django-uuslug-1.1.8.tar.gz
+Collecting python-slugify>=1.2.0 (from django-uuslug==1.1.8)
+  Using cached python_slugify-1.2.4-py2.py3-none-any.whl
+Collecting Unidecode>=0.04.16 (from python-slugify>=1.2.0->django-uuslug==1.1.8)
+
+  Using cached Unidecode-0.04.21-py2.py3-none-any.whl
+Installing collected packages: Unidecode, python-slugify, django-uuslug
+  Running setup.py install for django-uuslug ... done
+Successfully installed Unidecode-0.4.21 django-uuslug-1.1.8 python-slugify-1.2.4
+
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install pillow==5.0.0
+Collecting pillow==5.0.0
+  Using cached Pillow-5.0.0-cp36-cp36m-win32.whl
+Installing collected packages: pillow
+Successfully installed pillow-5.0.0
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install python-slugify==1.2.1
+Collecting python-slugify==1.2.1
+  Using cached python-slugify-1.2.1.tar.gz
+Requirement already satisfied: Unidecode>=0.04.16 in c:\users\ssamarthi\appdata\
+local\programs\python\python36-32\lib\site-packages (from python-slugify==1.2.1)
+
+Installing collected packages: python-slugify
+  Found existing installation: python-slugify 1.2.4
+    Uninstalling python-slugify-1.2.4:
+      Successfully uninstalled python-slugify-1.2.4
+  Running setup.py install for python-slugify ... done
+Successfully installed python-slugify-1.2.1
+
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32>pip3 install Unidec
+ode==0.4.19
+Collecting Unidecode==0.4.19
+  Using cached Unidecode-0.04.19.tar.gz
+Installing collected packages: Unidecode
+  Found existing installation: Unidecode 0.4.21
+    Uninstalling Unidecode-0.4.21:
+      Successfully uninstalled Unidecode-0.4.21
+  Running setup.py install for Unidecode ... done
+Successfully installed Unidecode-0.4.19
+
+16. Run migrate command from the bloggy-project location using "manage.py" as below toc check there are no any pending migrations.
+(new-env) C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project>C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32\
+python.exe manage.py migrate
+
+17. Create super user using "manage.py" as below: with Username as admin and Passwd: admin1234
+(new-env) C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project>C:\Users\ssamarthi\AppData\Local\Programs
+\Python\Python36-32\python.exe manage.py createsuperuser
+
+18. Now run the server using "manage.py" as below:
+(env) C:\Users\ssamarthi\AnacondaProjects\SAHIL_TUTORIALS\djangogirls\django-bloggy\django-bloggy\bloggy_project>C:\Users\ssamarthi\AppData\Local\Programs
+\Python\Python36-32\python.exe manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 04, 2018 - 14:52:28
+Django version 1.10.3, using settings 'bloggy_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
+19. Open the admin login page and try add post:
+http://127.0.0.1:8000/admin/
+
+20. Open the blog page to see the pages added:
+http://127.0.0.1:8000/blog/
+
+
+
+
+
+
+
+
+"""Doc used for refference is:
+https://tutorial.djangogirls.org/en/django_start_project/
+"""
+
+
+1. After project is run to start new app use below command:
+C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32\python.exe manage.py startapp polls
+
+
+
+2. To install django through virtual environment.
+
+Django==1.10.4
+mongoengine=0.9.0
+pymongo==2.8
+six==1.10.0
+
+//Creating an environment
+C:\Users\ssamarthi>C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32\python.exe -m venv env
+
+C:\Users\ssamarthi>cd env
+
+C:\Users\ssamarthi\env>cd Scripts
+C:\Users\ssamarthi\env\Scripts>activate  // Get into the environment
+(env) C:\Users\ssamarthi\env\Scripts>
+(env) C:\Users\ssamarthi\env\Scripts>
+(env) C:\Users\ssamarthi\env\Scripts>pip install django==1.8
+Collecting django==1.8
+  Downloading Django-1.8-py2.py3-none-any.whl (6.2MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 6.2MB 90kB/s
+
+
+(env) C:\Users\ssamarthi\env\Scripts>deactivate.bat
+C:\Users\ssamarthi\env\Scripts>activate
+(env) C:\Users\ssamarthi\env\Scripts>python
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)]
+ on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+>>> django.version
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'django' has no attribute 'version'
+>>> django.VERSION
+(1, 8, 0, 'final', 0)
+>>> exit()
+
+(env) C:\Users\ssamarthi\env\Scripts>
+(env) C:\Users\ssamarthi\env\Scripts>pip install mongoengine==0.9.0
+Collecting mongoengine==0.9.0
+  Downloading mongoengine-0.9.0.tar.gz (347kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 348kB 1.0MB/s
+Collecting pymongo>=2.7.1 (from mongoengine==0.9.0)
+  Downloading pymongo-3.6.0-cp36-cp36m-win32.whl (285kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 286kB 1.2MB/s
+Installing collected packages: pymongo, mongoengine
+  Running setup.py install for mongoengine ... done
+Successfully installed mongoengine-0.9.0 pymongo-3.6.0
+
+(env) C:\Users\ssamarthi\env\Scripts>pip install pymongo==2.8
+Collecting pymongo==2.8
+  Downloading pymongo-2.8.tar.gz (394kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 399kB 818kB/s
+Installing collected packages: pymongo
+  Found existing installation: pymongo 3.6.0
+    Uninstalling pymongo-3.6.0:
+      Successfully uninstalled pymongo-3.6.0
+  Running setup.py install for pymongo ... done
+Successfully installed pymongo-2.8
+
+(env) C:\Users\ssamarthi\env\Scripts>pip install six==1.10.0
+Collecting six==1.10.0
+  Using cached six-1.10.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.10.0
+
+(env) C:\Users\ssamarthi\env\Scripts>pip freeze > requirements.txt
+
+This "requitrements.txt" will have all the packages instaled.
+
+
+//Creating an environment
+C:\Users\ssamarthi>C:\Users\ssamarthi\AppData\Local\Programs\Python\Python36-32\python.exe -m venv mongoenv
+C:\Users\ssamarthi>cd mongoenv
+C:\Users\ssamarthi\mongoenv>cd Scripts
+C:\Users\ssamarthi\mongoenv\Scripts>activate
+(mongoenv) C:\Users\ssamarthi\mongoenv\Scripts>pip install -r requirements.txt
+ 
+//Copy  this requirements.txt to any newly created env .
+and execute pip install -r requirements.txt
+
+This will install all the packages.
+
+
+
+
+
+
+**********************Another way to create virtual env isusing conda******************
+conda create -n newenv	//To create a newenv
+source activate newenv  // To activate the newenv
+source deactivate       //To deactivate
